@@ -7,5 +7,14 @@
       "matches": ["https://www.google.com/*"],
       "js": ["main.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "go-away-gemini@chancedev",
+      "data_collection_permissions": {
+        "required": ["none"]
+      },
+      "strict_min_version": "58.0"
+    }
+  }
 }
