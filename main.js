@@ -1,7 +1,7 @@
 let url = window.location.href;
-const param = "&udm=14"
+const param = "&udm"
 
 if (!url.includes(param)) {
-  url += param;
+  url += param + "=14";
   window.location.href = url;
 }
