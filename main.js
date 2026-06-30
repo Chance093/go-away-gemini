@@ -1,5 +1,7 @@
-const searchBar = document.querySelector('textarea'); 
+let url = window.location.href;
+const param = "&udm=14"
 
-searchBar.innerText += " -ai";
-
-window.location.reload();
+if (!url.includes(param)) {
+  url += param;
+  window.location.href = url;
+}
